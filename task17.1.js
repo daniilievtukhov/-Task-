@@ -8,7 +8,7 @@ function mul() {
     return 0;
   } else {
     var product = 1;
-    for (i = 0; i < onlyNumbers.length; i++) {
+    for (var i = 0; i < onlyNumbers.length; i++) {
       product *= onlyNumbers[i];
     }
     return product;
