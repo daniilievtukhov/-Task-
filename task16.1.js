@@ -21,3 +21,4 @@ function createMp3(music) {
 var mp3 = createMp3("Up");
 mp3.play();
 mp3.pause();
+mp3.close();
