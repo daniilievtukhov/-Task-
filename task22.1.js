@@ -116,5 +116,7 @@ Circle.prototype.__circle = function () {
 };
 
 var res = new Rectangle(1, 2, 12, 8);
+console.log(res.info());
 
+var res = new Circle(12, 34, 17, 2);
 console.log(res.info());

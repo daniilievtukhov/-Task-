@@ -31,7 +31,7 @@ Cube.prototype.setSide = function (a) {
 };
 
 Cube.prototype.per = function () {
-  Square.prototype.per.call(this);
+  // Square.prototype.per.call(this);// другий спосіб
   return Math.pow(this.__a, 2) * 6;
 };
 var p = new Square(12);
