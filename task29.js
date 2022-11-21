@@ -1,4 +1,5 @@
 "use strict";
+
 function random(min, max, delay, callback) {
   var error;
   var data;
@@ -12,10 +13,10 @@ function random(min, max, delay, callback) {
   }, delay);
 }
 
-random(13, 24, 2000, function (error, data) {
+random(1, 100, 2000, function (error, data) {
   console.log(data);
 });
 
-random(24, 13, 3000, function (error, data) {
+random(1000, 100, 3000, function (error, data) {
   console.log(error);
 });
