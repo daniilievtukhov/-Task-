@@ -27,5 +27,7 @@ function check(arr, first, second) {
     return sumSliceArray(arr, first, second);
   }
 }
-var res = sumSliceArray([12, 34, 56, 12], 3, 2);
-console.log(res);
+sumSliceArray([12, 34, 56, 12], 1, 2);
+sumSliceArray([12, 34, 56, 12], "sldkfn", 2);
+sumSliceArray([12, 34, 56, 12], 11, 2);
+sumSliceArray([12, 34, 56, 12], -11, 2);
